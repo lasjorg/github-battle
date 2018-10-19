@@ -27,6 +27,39 @@ a {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+
+.column input {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 4px;
+  width: 80%;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,.43);
+}
+
+.column label {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+
 /* NAV */
 
 .nav {
@@ -39,6 +72,21 @@ a {
 
 .active {
   font-weight: bold;
+}
+
+/* BATTLE */
+
+.reset {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #d0021b;
+  background: transparent;
+  border: none;
+}
+
+.reset:hover {
+  cursor: pointer;
 }
 
 /* HOME */
@@ -72,7 +120,7 @@ a {
   transform: translateY(1px);
 }
 
-/* LANGS */
+/* POPULAR */
 
 .langs {
   display: flex;
