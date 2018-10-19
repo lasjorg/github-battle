@@ -3,7 +3,7 @@ import Home from './Home';
 import Battle from './Battle';
 import Popular from './Popular';
 import Nav from './Nav';
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
